@@ -1,0 +1,3 @@
+Installer les icônes bootstrap via le terminal : npm install bootstrap-icons
+
+Télécharger le css de bootstrap ou utiliser : href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
