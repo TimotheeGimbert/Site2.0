@@ -1,7 +1,6 @@
 {
   "name": "site2.0",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^5.0.2",
@@ -19,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/TimotheeGimbert/Site2.0/issues"
   },
-  "homepage": "https://github.com/TimotheeGimbert/Site2.0#readme"
+  "homepage": "https://github.com/TimotheeGimbert/Site2.0#readme",
+  "description": ""
 }
