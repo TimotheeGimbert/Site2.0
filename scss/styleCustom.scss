@@ -1,0 +1,42 @@
+ @import "../node_modules/bootstrap/scss/bootstrap";
+
+#header {
+     nav {
+        img {
+            margin-left: 0.8rem;
+            margin-right: 1.5rem;
+        }
+        > a {
+            padding-right: 1.4rem;
+        }
+    }
+}
+
+$jumboBackColor : #252424;
+$jumboTextColor : #cfcece;
+#index-jumbo {
+    .jumbotron {
+        background-color: $jumboBackColor;
+        color: $jumboTextColor;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+#fullStack-jumbo {
+    .jumbotron {
+        background-color: $jumboBackColor;
+        color: $jumboTextColor;
+        margin-top: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+$customWhite : #f6f0f0;
+#footer {
+    color: $customWhite;
+    a {
+        color: $customWhite;
+    }
+}
