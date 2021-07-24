@@ -10751,7 +10751,7 @@ textarea.form-control-lg {
   margin-right: 1.5rem;
 }
 #header nav > a {
-  padding-right: 1.4rem;
+  padding-right: 0.8rem;
 }
 
 #index-jumbo .jumbotron {
@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
   padding-bottom: 2rem;
 }
 
-#fullStack-jumbo .jumbotron {
+.jumbotron-custom {
   background-color: #252424;
   color: #cfcece;
   margin-top: 2rem;
