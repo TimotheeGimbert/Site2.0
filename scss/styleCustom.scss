@@ -14,19 +14,10 @@
 
 $jumboBackColor : #252424;
 $jumboTextColor : #cfcece;
-#index-jumbo {
-    .jumbotron {
-        background-color: $jumboBackColor;
-        color: $jumboTextColor;
-        padding-top: 2.5rem;
-        padding-bottom: 2rem;
-    }
-}
 
- .jumbotron-custom {
+ .jumbotron {
     background-color: $jumboBackColor;
     color: $jumboTextColor;
-    margin-top: 2rem;
     margin-bottom: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;

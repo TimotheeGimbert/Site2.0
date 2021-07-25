@@ -10754,17 +10754,9 @@ textarea.form-control-lg {
   padding-right: 0.8rem;
 }
 
-#index-jumbo .jumbotron {
+.jumbotron {
   background-color: #252424;
   color: #cfcece;
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
-}
-
-.jumbotron-custom {
-  background-color: #252424;
-  color: #cfcece;
-  margin-top: 2rem;
   margin-bottom: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
