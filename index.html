@@ -10,96 +10,108 @@
   <body>
 
 <!-- Header -->
-<div id="header" class="container-fluid">
-  <div class="row bg-light">
-    <nav class="col navbar navbar-expand-xs navbar-light"> 
-      <a class="navbar-brand" href="index.html">
-        <img src="images\logo.png" width="60" height="60" alt="logo">Portfolio - Timothée GiMBERT
+<header class="container-fluid">
+  <div class="row">
+    <nav class="col p-4 navbar navbar-expand-xs navbar-light"> 
+      <a class="navbar-brand px-4 mx-2" href="index.html">
+        <img src="images\logo.png" width="60" height="60" alt="logo">Portfolio
       </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav list-inline text-center mb-1">
-          <li class="nav-item list-inline-item"> <a class="nav-link" href="skills.html">Compétences informatiques</a></li>
-          <li class="nav-item list-inline-item"> <a class="nav-link" href="certifications.html">Certifications</a></li>
-          <li class="nav-item list-inline-item"> <a class="nav-link" href="historic.html">Historique de carrière</a></li>
-          <li class="nav-item list-inline-item"> <a class="nav-link" href="info.html">Contact</a></li>
+        <ul class="navbar-nav list-inline mb-5 text-center">
+          <li class="nav-item list-inline-item"> <a class="nav-link" href="competences.html">Compétences</a></li>
+          <li class="nav-item list-inline-item"> <a class="nav-link" href="formations.html">Formations</a></li>
+          <li class="nav-item list-inline-item"> <a class="nav-link" href="images/CV2021.pdf">Curriculum Vitae</a></li>
         </ul>
       </div>
     </nav>
   </div>
-</div>
+</header>
 <!-- End of Header -->
 
 <!-- Page -->
-<div class="container">
-  <section id="index-carousel" class="row">
-    <div class="col">
+<div class="container-fluid">
+  <div class="row mt-4 justify-content-around">
+    <div class="col-2 offset-md-1 align-self-center">
+      <div class="card shadow-lg pt-5" style="width:300px">
+        <img class="card-img-top mx-auto mt-2 w-50" src="images/profilePicMini.jpg"  alt="profile" style="width: 200px;">
+        <div class="card-body my-2 text-center">
+          <h4 class="card-title">Timothée GiMBERT</h4>
+          <p class="card-text">Développeur en formation</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-7">
       <div id="carouselControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images\carouselDesk.jpg" class="d-block w-100 mx-auto" alt="desk">
+            <img src="images\home1.jpg" class="d-block w-75 mx-auto" alt="home1">
           </div>
           <div class="carousel-item">
-            <img src="images\carouselDome.jpg" class="d-block w-100 mx-auto"" alt="dome">
+            <img src="images\home3.jpg" class="d-block w-75 mx-auto"" alt="home3">
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="row mt-5">
-    <div class="col-12 col-md-6 col-lg-4 mb-3">
+  <div class="row mt-4 justify-content-around">
+    <div class="col-2 offset-md-1 align-self-center">
       <div class="card">
-        <a class="btn btn-dark p-4" href="skills.html" role="button">
-          <img class="card-img-top w-100" src="images/cardSkills.jpg" alt="full-stack">
-          <div class="card-body text-center mt-4">
-            <h4 class="card-title">Compétences</h4>
-            <p class="card-text">Programmation informatique</p>
-            <div class="btn btn-success my-3" role="button">En Savoir +</div>
-          </div>
-        </a>
-      </div>   
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 mb-3">
-      <div class="card">
-        <a class="btn btn-dark p-4" href="certifications.html" role="button">
-          <img class="card-img-top w-100" src="images/cardStudy.jpg" alt="full-stack">
-          <div class="card-body text-center mt-4">
-            <h4 class="card-title">Formation certifiée</h4>
-            <p class="card-text">Développement Full-Stack</p>
-            <div class="btn btn-info my-3" role="button">En Savoir +</div>
-          </div>
-        </a>
+        <div class="card-body text-center">
+          <p class="card-text mb-3">GitHub: /TimotheeGimbert</p>
+          <p class="card-text mb-3">Tweeter: tweetGIMB</p>
+          <p class="card-text mb-3">eMail: gimbert2021@free.fr</p>
+          <p class="card-text mb-3">LinkedIn: /timothée-gimbert-607b328a</p>
+        </div>
       </div>
     </div>
-    <div class="col-12 col-md-12 col-lg-4 mb-5">
-      <div class="card">
-        <a class="btn btn-dark p-4" href="historic.html" role="button">
-          <img class="card-img-top w-100" src="images/cardLasers.jpg" alt="full-stack">
-          <div class="card-body text-center mt-4">
-            <h4 class="card-title">Historique professionnel</h4>
-            <p class="card-text">Systèmes Lasers Robotisés</p>
-            <div class="btn btn-warning my-3" role="button">En Savoir +</div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-</div>
-<!-- End of Page -->
-
- <!--     <section class="row">
+    <div class="col-7">
+      <div class="row">
         <div class="col">
-          <div class="jumbotron text-center ">
-            <h2>Curriculum Vitae</h2>
-            <a class="btn mt-4" href="images/CV2021.pdf" role="button" target="_blank"><div class="btn btn-light " role="button">Ouvrir au format PDF</div>
+          <div class="card pt-1 shadow">
+            <a class="btn btn-light" href="competences.html" role="button">
+              <img class="card-img-top w-100" src="images/homeCard1.jpg" alt="full-stack">
+              <div class="card-body text-center mt-2">
+                <h4 class="card-title">Compétences</h4>
+                <p class="card-text">Programmation</p>
+              </div>
             </a>
           </div>
         </div>
-      </section>
-  --> 
+        <div class="col">
+          <div class="card pt-1 shadow">
+            <a class="btn btn-light" href="formations.html" role="button">
+              <img class="card-img-top w-100" src="images/homeCard2.jpg" alt="full-stack">
+              <div class="card-body text-center mt-2">
+                <h4 class="card-title">Formations</h4>
+                <p class="card-text">Développement Full-Stack</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card pt-1 shadow">
+            <a class="btn btn-light" href="images/CV2021.pdf" role="button">
+              <img class="card-img-top w-100" src="images/cardLasers.jpg" alt="full-stack">
+              <div class="card-body text-center mt-2">
+                <h4 class="card-title">Curriculum</h4>
+                <p class="card-text">Lasers robotisés</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <!--  row justify-content-around
+        col-3 align-self-center
+  -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -10746,27 +10746,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#header nav img {
-  margin-left: 0.8rem;
-  margin-right: 1.5rem;
+header .row {
+  background-color: #1a9e1a96;
 }
-#header nav > a {
-  padding-right: 0.8rem;
+header nav img {
+  margin-right: 1.5rem;
 }
 
 .jumbotron {
-  background-color: #252424;
+  background-color: #252424e5;
   color: #cfcece;
   margin-bottom: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-#footer {
-  color: #f6f0f0;
-}
-#footer a {
-  color: #f6f0f0;
 }
 
 /*# sourceMappingURL=styleCustom.css.map */

@@ -1,18 +1,23 @@
  @import "../node_modules/bootstrap/scss/bootstrap";
 
-#header {
-     nav {
+
+ $Green1 : #1a9e1a96;
+ $Green2 : #769e1a96;
+ $Green3 : #108b24d2;
+
+header {
+    .row {
+        background-color: $Green1;
+    }
+    nav {
         img {
-            margin-left: 0.8rem;
             margin-right: 1.5rem;
         }
-        > a {
-            padding-right: 0.8rem;
-        }
+
     }
 }
 
-$jumboBackColor : #252424;
+$jumboBackColor : #252424e5;
 $jumboTextColor : #cfcece;
 
  .jumbotron {
@@ -21,12 +26,4 @@ $jumboTextColor : #cfcece;
     margin-bottom: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-}
-
-$customWhite : #f6f0f0;
-#footer {
-    color: $customWhite;
-    a {
-        color: $customWhite;
-    }
 }
