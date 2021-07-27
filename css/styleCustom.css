@@ -10746,6 +10746,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
 header .row {
   background-color: #1a9e1a96;
 }
@@ -10758,9 +10768,24 @@ header .row nav img {
 header .row .dot {
   color: white;
 }
+header .row #navbarContent {
+  height: 297px;
+}
+header .row a:hover {
+  font-size: 150%;
+}
 
 section .card {
   min-width: 220px;
+  border-radius: 11px;
+  background-color: transparent;
+}
+section .card:hover {
+  border-color: #1a9e1a96;
+  border-width: 4px;
+}
+section .card a {
+  border-radius: 11px;
 }
 section .card-title {
   color: #1a9e1a96;
@@ -10784,6 +10809,19 @@ section .card-text {
 }
 .jumbotron h3, .jumbotron .h3, .jumbotron h4, .jumbotron .h4 {
   color: #a7a7a7;
+}
+
+#jumboContact {
+  margin-bottom: 0rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#jumboContact h5, #jumboContact .h5 {
+  color: #a7a7a7;
+}
+#jumboContact h5:hover, #jumboContact .h5:hover {
+  font-size: 150%;
+  color: #1a9e1a96;
 }
 
 /*# sourceMappingURL=styleCustom.css.map */

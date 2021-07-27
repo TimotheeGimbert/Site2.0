@@ -5,6 +5,12 @@
  $Green2 : #a9d1259b;
  $Gray1 : #a7a7a7;
 
+ a {
+    &:link {text-decoration: none;}
+    &:visited {text-decoration: none;}
+    &:active {text-decoration: none;}
+}
+
 header {
     .row {
         background-color: $Green1;
@@ -19,12 +25,27 @@ header {
         .dot {
             color: white;
         }
+        #navbarContent {
+            height: 297px;
+        }
+        a:hover {
+            font-size: 150%;
+          }
     }
 }
 
 section {
     .card {
         min-width: 220px;
+        
+        border-radius: 11px;
+        background-color: transparent;
+        &:hover {
+            border-color: $Green1;
+            border-width: 4px;}
+        a {
+            border-radius: 11px;
+            }   
     }
     .card-title {
         color: $Green1;
@@ -52,3 +73,18 @@ section {
         color: $Gray1;
     }
 }
+
+#jumboContact {
+    h5 {
+        color: $Gray1;
+        &:hover {
+            font-size: 150%;
+            color: $Green1;
+        }
+    }
+    margin-bottom: 0rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
