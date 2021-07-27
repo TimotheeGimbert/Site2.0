@@ -10760,6 +10760,10 @@ section .card {
   min-width: 220px;
 }
 
+.card .card-footer {
+  font-style: italic;
+}
+
 .jumbotron {
   background-color: #a9d1259b;
   color: white;
