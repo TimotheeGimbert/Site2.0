@@ -3,7 +3,6 @@
 
  $Green1 : #1a9e1a96;
  $Green2 : #a9d1259b;
- $Green3 : #108b24d2;
 
 header {
     .row {
@@ -22,7 +21,7 @@ header {
 
 section {
     .card {
-        min-width:220px;
+        min-width: 220px;
     }
 }
 
@@ -32,13 +31,16 @@ section {
     }
 }
 
-$jumboBackColor : #252424e5;
-$jumboTextColor : #fff7f7;
-
- .jumbotron {
-    background-color: $Green2;
-    color: white;
-    margin-bottom: 3rem;
+.jumbotron {
+    background-color: white;
+    margin-bottom: 2.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+
+    h2 {
+        color: $Green1;
+    }
+    h3, h4 {
+        color: $Green2;
+    }
 }
