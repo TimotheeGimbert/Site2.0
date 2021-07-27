@@ -10749,6 +10749,9 @@ textarea.form-control-lg {
 header .row {
   background-color: #1a9e1a96;
 }
+header .row a {
+  color: white;
+}
 header nav img {
   margin-right: 1.5rem;
 }
@@ -10758,11 +10761,11 @@ section .card {
 }
 
 .jumbotron {
-  background-color: #252424e5;
-  color: #cfcece;
+  background-color: #a9d1259b;
+  color: white;
   margin-bottom: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=styleCustom.css.map */

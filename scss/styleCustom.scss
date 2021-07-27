@@ -2,18 +2,21 @@
 
 
  $Green1 : #1a9e1a96;
- $Green2 : #769e1a96;
+ $Green2 : #a9d1259b;
  $Green3 : #108b24d2;
 
 header {
     .row {
         background-color: $Green1;
+        a {
+            color: white;
+        }
     }
+    
     nav {
         img {
             margin-right: 1.5rem;
         }
-
     }
 }
 
@@ -24,12 +27,12 @@ section {
 }
 
 $jumboBackColor : #252424e5;
-$jumboTextColor : #cfcece;
+$jumboTextColor : #fff7f7;
 
  .jumbotron {
-    background-color: $jumboBackColor;
-    color: $jumboTextColor;
+    background-color: $Green2;
+    color: white;
     margin-bottom: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
