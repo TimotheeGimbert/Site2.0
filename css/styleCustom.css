@@ -10753,6 +10753,10 @@ header nav img {
   margin-right: 1.5rem;
 }
 
+section .card {
+  min-width: 220px;
+}
+
 .jumbotron {
   background-color: #252424e5;
   color: #cfcece;

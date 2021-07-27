@@ -17,6 +17,12 @@ header {
     }
 }
 
+section {
+    .card {
+        min-width:220px;
+    }
+}
+
 $jumboBackColor : #252424e5;
 $jumboTextColor : #cfcece;
 
