@@ -3,6 +3,7 @@
 
  $Green1 : #1a9e1a96;
  $Green2 : #a9d1259b;
+ $Gray1 : #a7a7a7;
 
 header {
     .row {
@@ -10,11 +11,13 @@ header {
         a {
             color: white;
         }
-    }
-    
-    nav {
-        img {
-            margin-right: 1.5rem;
+        nav {
+            img {
+                margin-right: 1.5rem;
+            }
+        }
+        .dot {
+            color: white;
         }
     }
 }
@@ -22,6 +25,12 @@ header {
 section {
     .card {
         min-width: 220px;
+    }
+    .card-title {
+        color: $Green1;
+    }
+    .card-text {
+        color: $Gray1;
     }
 }
 
@@ -34,13 +43,12 @@ section {
 .jumbotron {
     background-color: white;
     margin-bottom: 2.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-
+    padding-top: 8rem;
+    padding-bottom: 5rem;
     h2 {
         color: $Green1;
     }
     h3, h4 {
-        color: $Green2;
+        color: $Gray1;
     }
 }

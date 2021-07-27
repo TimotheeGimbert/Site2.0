@@ -10752,12 +10752,21 @@ header .row {
 header .row a {
   color: white;
 }
-header nav img {
+header .row nav img {
   margin-right: 1.5rem;
+}
+header .row .dot {
+  color: white;
 }
 
 section .card {
   min-width: 220px;
+}
+section .card-title {
+  color: #1a9e1a96;
+}
+section .card-text {
+  color: #a7a7a7;
 }
 
 .card .card-footer {
@@ -10767,14 +10776,14 @@ section .card {
 .jumbotron {
   background-color: white;
   margin-bottom: 2.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
 }
 .jumbotron h2, .jumbotron .h2 {
   color: #1a9e1a96;
 }
 .jumbotron h3, .jumbotron .h3, .jumbotron h4, .jumbotron .h4 {
-  color: #a9d1259b;
+  color: #a7a7a7;
 }
 
 /*# sourceMappingURL=styleCustom.css.map */
