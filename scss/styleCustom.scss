@@ -5,6 +5,7 @@
  $Color2 : #a7a7a7;
  $Color3 : white;
  $Color4: #dbe5a026;
+ $Color5: #ffffff;
 
 .txtThemeColor1 {color: $Color1;}
 .txtThemeColor2 {color: $Color2;}
@@ -47,7 +48,7 @@ header {
 }
 
 .cardType1 {
-    background-color: $Color4;
+    background-color: $Color5;
     a {
         &:hover {
             border-color: $Color1;
@@ -59,12 +60,12 @@ header {
 }
 
 .cardType2 {
-    a {
+    //a {
         &:hover {
             border-color: $Color2;
             border-width: 2px;
         }
-    }
+    //}
     text-align: center;
     .card-title {color: $Color1;}
     .card-text {color: $Color2;}

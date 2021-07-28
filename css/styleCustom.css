@@ -10795,7 +10795,7 @@ header .row #navbarContent {
 }
 
 .cardType1 {
-  background-color: #dbe5a026;
+  background-color: #ffffff;
 }
 .cardType1 a:hover {
   border-color: #1a9e1a96;
@@ -10811,7 +10811,7 @@ header .row #navbarContent {
 .cardType2 {
   text-align: center;
 }
-.cardType2 a:hover {
+.cardType2:hover {
   border-color: #a7a7a7;
   border-width: 2px;
 }
