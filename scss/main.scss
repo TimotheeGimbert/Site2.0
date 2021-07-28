@@ -1,16 +1,16 @@
  @import "../node_modules/bootstrap/scss/bootstrap";
- @import "./scss/variables";
- @import "./scss/functions";
- @import "./scss/mixins";
+ @import "./utils/variables";
+ @import "./utils/functions";
+ @import "./utils/mixins";
 
 
- $Color1 : #1a9e1a96;
+ 
  $Color2 : #a7a7a7;
  $Color3 : white;
  $Color4: #dbe5a026;
  $Color5: #ffffff;
 
-.txtThemeColor1 {color: $Color1;}
+.txtThemeColor1 {color: $color-primary;}
 .txtThemeColor2 {color: $Color2;}
 .txtThemeColor3 {color: $Color3;}
 
@@ -22,7 +22,7 @@ a {
 
 header {
     .row {
-        background-color: $Color1;
+        background-color: $color-primary;
         a {
             color: $Color3;
         }
@@ -54,11 +54,11 @@ header {
     background-color: $Color5;
     a {
         &:hover {
-            border-color: $Color1;
+            border-color: $color-primary;
             border-width: 3px;
         }
     }
-    .card-title {color: $Color1;}
+    .card-title {color: $color-primary;}
     .card-text {color: $Color2;}
 }
 
@@ -70,7 +70,7 @@ header {
         }
     //}
     text-align: center;
-    .card-title {color: $Color1;}
+    .card-title {color: $color-primary;}
     .card-text {color: $Color2;}
 }
 
@@ -80,7 +80,7 @@ header {
     padding-top: 3rem;
     padding-bottom: 3rem;
     h2 {
-        color: $Color1;
+        color: $color-primary;
     }
     h3, h4 {
         color: $Color2;
