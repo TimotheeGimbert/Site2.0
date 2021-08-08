@@ -33,7 +33,19 @@ header {
     }
 }
 
+.section-break {
+    margin-top: 3rem;
+    margin-bottom: 16rem;
+}
 
+#section-philo {
+    .jumbotron-title {
+        margin-bottom: 0rem;
+    }
+    .carousel {
+        margin-top: 0rem;
+    }
+}
 
 .cardType1 {
     background-color: $color-primary-text;
