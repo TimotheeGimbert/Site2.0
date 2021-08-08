@@ -10771,6 +10771,13 @@ section {
   padding-bottom: 3rem;
 }
 
+.card {
+  min-width: 220px;
+}
+.card .card-footer {
+  font-style: italic;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -10800,13 +10807,6 @@ header .row #navbarContent {
   height: 297px;
 }
 
-.card {
-  min-width: 220px;
-}
-.card .card-footer {
-  font-style: italic;
-}
-
 .cardType1 {
   background-color: #f8f8f8;
 }
@@ -10818,21 +10818,21 @@ header .row #navbarContent {
   color: #1a9e1aaf;
 }
 .cardType1 .card-text {
-  color: #a7a7a7;
+  color: #9e9a9a;
 }
 
 .cardType2 {
   text-align: center;
 }
 .cardType2:hover {
-  border-color: #a7a7a7;
+  border-color: #9e9a9a;
   border-width: 2px;
 }
 .cardType2 .card-title {
   color: #1a9e1aaf;
 }
 .cardType2 .card-text {
-  color: #a7a7a7;
+  color: #9e9a9a;
 }
 
 /*# sourceMappingURL=main.css.map */

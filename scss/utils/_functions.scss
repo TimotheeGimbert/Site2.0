@@ -12,13 +12,19 @@ section {
         padding: 2rem;
     }
 }
-
-.jumbo-title{
+.jumbo-title {
     background-color: $color-primary;
     margin-bottom: 3rem;
 }
-
-.jumbo-content{
+.jumbo-content {
     padding: 4rem;
     padding-bottom: 3rem;
+}
+
+
+.card {   
+    min-width: 220px;
+    .card-footer {
+        font-style: italic;
+    }    
 }
