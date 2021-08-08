@@ -10746,6 +10746,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+section {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .jumbotron {
   background-color: #202220d7;
   color: #f8f8f8;
@@ -10758,23 +10763,12 @@ textarea.form-control-lg {
 
 .jumbo-title {
   background-color: #1a9e1aaf;
+  margin-bottom: 3rem;
 }
 
 .jumbo-content {
   padding: 4rem;
   padding-bottom: 3rem;
-}
-
-.txtThemeColor1 {
-  color: #1a9e1aaf;
-}
-
-.txtThemeColor2 {
-  color: #a7a7a7;
-}
-
-.txtThemeColor3 {
-  color: white;
 }
 
 a:link {
@@ -10791,7 +10785,7 @@ header .row {
   background-color: #1a9e1aaf;
 }
 header .row a {
-  color: white;
+  color: #f8f8f8;
 }
 header .row a:hover {
   font-size: 150%;
@@ -10800,15 +10794,10 @@ header .row nav img {
   margin-right: 1.5rem;
 }
 header .row .dot {
-  color: white;
+  color: #f8f8f8;
 }
 header .row #navbarContent {
   height: 297px;
-}
-
-section {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
 }
 
 .card {
@@ -10819,7 +10808,7 @@ section {
 }
 
 .cardType1 {
-  background-color: #ffffff;
+  background-color: #f8f8f8;
 }
 .cardType1 a:hover {
   border-color: #1a9e1aaf;

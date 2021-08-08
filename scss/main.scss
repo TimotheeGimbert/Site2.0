@@ -4,16 +4,6 @@
  @import "./utils/mixins";
 
 
- 
- $Color2 : #a7a7a7;
- $Color3 : white;
- $Color4: #33332f1a;
- $Color5: #ffffff;
-
-.txtThemeColor1 {color: $color-primary;}
-.txtThemeColor2 {color: $Color2;}
-.txtThemeColor3 {color: $Color3;}
-
 a {
     &:link {text-decoration: none;}
     &:visited {text-decoration: none;}
@@ -24,7 +14,7 @@ header {
     .row {
         background-color: $color-primary;
         a {
-            color: $Color3;
+            color: $color-primary-text;
         }
         a:hover {
             font-size: 150%;
@@ -35,23 +25,13 @@ header {
             }
         }
         .dot {
-            color: $Color3;
+            color: $color-primary-text;
         }
         #navbarContent {
             height: 297px;
         }
     }
 }
-
-
-section {
-    margin-top: $margin-section-Y;
-    margin-bottom : $margin-section-Y;
-}
-
-
-
-
 
 
 
@@ -63,7 +43,7 @@ section {
 }
 
 .cardType1 {
-    background-color: $Color5;
+    background-color: $color-primary-text;
     a {
         &:hover {
             border-color: $color-primary;
@@ -71,16 +51,16 @@ section {
         }
     }
     .card-title {color: $color-primary;}
-    .card-text {color: $Color2;}
+    .card-text {color: $color-secondary-text;}
 }
 
 .cardType2 {
     &:hover {
-        border-color: $Color2;
+        border-color: $color-secondary-text;
         border-width: 2px;
     }
     text-align: center;
     .card-title {color: $color-primary;}
-    .card-text {color: $Color2;}
+    .card-text {color: $color-secondary-text;}
 }
 

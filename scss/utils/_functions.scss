@@ -1,3 +1,8 @@
+section {
+    margin-top: $margin-section-Y;
+    margin-bottom : $margin-section-Y;
+}
+
 .jumbotron {
     background-color: $color-secondary;
     color : $color-primary-text;
@@ -10,6 +15,7 @@
 
 .jumbo-title{
     background-color: $color-primary;
+    margin-bottom: 3rem;
 }
 
 .jumbo-content{
