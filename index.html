@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" type="image/png" href="images/logo.png" />
-    <title>Démo Portfolio</title>
+    <title>Projet Portfolio</title>
   </head>
   <body>
 
@@ -13,8 +13,8 @@
 <header class="container-fluid">
   <div class="row">
     <nav class="col p-3 navbar navbar-expand-xs navbar-dark"> 
-      <a class="navbar-brand px-2">
-        <img src="images\logo.png" width="60" height="60" alt="logo">Timothée GiMBERT
+      <a class="navbar-brand px-2" href="index.html">
+        <img src="images\logo.png" width="60" height="60" alt="logo">Portfolio
       </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
         <span class="navbar-toggler-icon"></span>
@@ -38,23 +38,121 @@
 <!-- Page -->
 <div class="container-fluid">
 
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-xl-6 mb-4">
-      <div id="carouselControls" class="carousel slide" data-ride="carousel" style="min-width:300px">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images\home1.jpg" class="d-block w-100 mx-auto" alt="home1">
+  <section id="section-intro" class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-8">
+        <div class="jumbotron">
+          <h1>Hello !</h1>
+          <hr>
+          <h2>Décidé à apprendre la programmation informatique, je fais évoluer cette page Web comme un petit challenge personnel et ludique.</h2>
+          <p class="text-end">Ce portfolio détaille mon parcours professionnel, et l'avancement de mes compétences informatiques ...</p>
+          <p class="text-end">... rien de bien passionnant ^^</p>
+        </div> 
+      </div>
+      <div class="col-2 mx-5 align-self-center">
+        <div class="card text-center">
+          <img class="card-img-top w-50 align-self-center mt-4" src="images/profilePicMini.jpg" alt="profile picture">
+          <div class="card-body">
+            <h3 class="card-title">Timothée</h3>
+            <p class="card-text">Développeur en formation</p>
           </div>
-          <div class="carousel-item">
-            <img src="images\home3.jpg" class="d-block w-100 mx-auto"" alt="home3">
-          </div>
-          <div class="carousel-item">
-            <img src="images\home2.jpg" class="d-block w-100 mx-auto"" alt="home2">
+          <div class="card-footer text-muted">timothee.gimbert@free.fr</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="section-deco1" class="container">
+    <div class="row justify-content-center">
+      <div class="col-9">
+        <div class="carousel slide" data-ride="carousel" style="min-width:300px">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images\home1.jpg" class="d-block w-100 mx-auto" alt="home1">
+            </div>
+            <div class="carousel-item">
+              <img src="images\home3.jpg" class="d-block w-100 mx-auto"" alt="home3">
+            </div>
+            <div class="carousel-item">
+              <img src="images\home2.jpg" class="d-block w-100 mx-auto"" alt="home2">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section id="section-formations" class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class="jumbotron jumbo-title text-center">
+          <h1>Formation Développeur Full-Stack</h1>
+          <p> > Je débute prochainement une formation de 6 mois en peer-learning.</p>
+        </div> 
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-5 text-end">
+        <div class="jumbotron jumbo-content">
+          <h1>"The Hacking Project"?</h1>
+          <hr>
+          <h2>Le terme Hacking illustre ici la notion de "détournement".</h2>
+          <p>Cette formation, un tant soi peu anti-confirmiste, s'effectue en communauté, sans professeur, en sélectionnant les meilleurs outils libres disponibles en ligne.</p>
+          <a class="btn btn-primary btn-lg mt-4" href="https://www.thehackingproject.org/parcours/3" target="_blank" role="button">Découvrir la formation</a>
+        </div>
+      </div>
+      <div class="col-7 align-self-center">
+        <div class="card border-light shadow-lg text-center">
+          <a href="https://www.thehackingproject.org/parcours/3" target="_blank">
+            <img class="card-img-top w-50 mt-5" src="images/THP.png" alt="THP">
+          </a>
+          <div class="card-body text-center my-5">
+            <h3 class="card-title">Parcours de 24 semaines</h3>
+            <p class="card-title">[ septembre 2021 - mars 2022 ]</p>
+            <a href="https://www.francecompetences.fr/recherche/rs/2927/" target="_blank">
+              <h5 class="card-text">Titre enregistré au RNCP - Certificat RS2927 </h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <section id="row-deco2" class="row">
+
+  </section>
+
+  <section id="row-competences" class="row">
+
+  </section>
+
+  <section id="row-deco3" class="row">
+
+  </section>
+
+  <section id="row-curriculum" class="row">
+
+  </section>
+
+
+
+  <section id="row-contact" class="row">
+
+  </section>
+
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="contact.html">
+    <h5 class="mb-5">Nosce Te Ipsum [Aristote]</h5> 
+</a>
+</footer>
+
+
+
+
+
+
 
   <section class="row mb-5 justify-content-center">
 
@@ -93,11 +191,7 @@
     </div>
   </section>
 
-  <footer class="container-fluid text-center">
-    <a href="contact.html">
-      <h5 class="mb-5">Infos / Contact</h5> 
-  </a>
-  </footer>
+  
 
 </div>
 

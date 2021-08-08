@@ -7,7 +7,7 @@
  
  $Color2 : #a7a7a7;
  $Color3 : white;
- $Color4: #dbe5a026;
+ $Color4: #33332f1a;
  $Color5: #ffffff;
 
 .txtThemeColor1 {color: $color-primary;}
@@ -43,6 +43,18 @@ header {
     }
 }
 
+
+section {
+    margin-top: $margin-section-Y;
+    margin-bottom : $margin-section-Y;
+}
+
+
+
+
+
+
+
 .card {   
     min-width: 220px;
     .card-footer {
@@ -63,29 +75,12 @@ header {
 }
 
 .cardType2 {
-    //a {
-        &:hover {
-            border-color: $Color2;
-            border-width: 2px;
-        }
-    //}
+    &:hover {
+        border-color: $Color2;
+        border-width: 2px;
+    }
     text-align: center;
     .card-title {color: $color-primary;}
     .card-text {color: $Color2;}
 }
-
-.jumbotron {
-    background-color: $Color4;
-    margin-bottom: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    h2 {
-        color: $color-primary;
-    }
-    h3, h4 {
-        color: $Color2;
-    }
-}
-
-
 
