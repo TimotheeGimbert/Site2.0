@@ -10813,7 +10813,11 @@ header .row #navbarContent {
   height: 297px;
 }
 
-#intro .row #cardID {
+#intro hr {
+  color: #1a9e1aaf;
+  height: 0.25rem;
+}
+#intro #cardID {
   margin-left: 6rem;
 }
 

@@ -26,10 +26,12 @@ header {
 }
 
 #intro {
-    .row {
-        #cardID {
-            margin-left: 6rem;
-        }
+    hr {
+        color: $color-primary;
+        height: 0.25rem;
+    }
+    #cardID {
+        margin-left: 6rem;
     }
 }
 
