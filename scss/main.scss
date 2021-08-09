@@ -13,6 +13,7 @@ a {
 header {
     .row {
         background-color: $color-primary;
+        margin-bottom: 0rem;
         a {
             color: $color-primary-text;
         }
@@ -33,9 +34,22 @@ header {
     }
 }
 
-.section-break {
-    margin-top: 3rem;
-    margin-bottom: 16rem;
+#section-intro {
+    margin-top: $margin-section-top;
+    margin-bottom: 0px;
+    .row {
+        margin-top: 0rem;
+        #cardID {
+            margin-left: 3rem;
+        }
+    }
+}
+
+#section-formations {
+    margin-bottom: 5rem;
+    .row {
+        margin-top: $margin-section-top;
+    }
 }
 
 

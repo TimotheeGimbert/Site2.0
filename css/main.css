@@ -10746,8 +10746,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-section {
-  margin-top: 8rem;
+.section-break {
+  margin-top: 3rem;
+  margin-bottom: 16rem;
 }
 
 .jumbotron {
@@ -10789,6 +10790,7 @@ a:active {
 
 header .row {
   background-color: #1a9e1aaf;
+  margin-bottom: 0rem;
 }
 header .row a {
   color: #f8f8f8;
@@ -10806,9 +10808,22 @@ header .row #navbarContent {
   height: 297px;
 }
 
-.section-break {
-  margin-top: 3rem;
-  margin-bottom: 16rem;
+#section-intro {
+  margin-top: 4rem;
+  margin-bottom: 0px;
+}
+#section-intro .row {
+  margin-top: 0rem;
+}
+#section-intro .row #cardID {
+  margin-left: 3rem;
+}
+
+#section-formations {
+  margin-bottom: 5rem;
+}
+#section-formations .row {
+  margin-top: 4rem;
 }
 
 .cardType1 {

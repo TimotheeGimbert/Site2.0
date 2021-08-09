@@ -1,5 +1,10 @@
 section {
-    margin-top: $margin-section-Y;
+    //margin-top: $margin-section-Y;
+}
+
+.section-break {
+    margin-top: 3rem;
+    margin-bottom: 16rem;
 }
 
 .jumbotron {
@@ -19,7 +24,6 @@ section {
     padding: 4rem;
     padding-bottom: 3rem;
 }
-
 
 .card {   
     min-width: 220px;
