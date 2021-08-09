@@ -11,13 +11,20 @@
 .jumbotron {
     background-color: $color-secondary;
     color : $color-primary-text;
+    h1 {
+        font-size: 3em;
+        padding: 2rem;
+    }
     h2 {
+        font-size: 2em;
+    }
+    h3 {
         font-size: 1.2em;
         padding: 2rem;
     }
     &-title {
         margin-bottom: 3rem;
-        padding: 6rem;
+        padding: 4rem;
         background-color: $color-primary;
         text-align: center;
     }
