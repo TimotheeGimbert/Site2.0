@@ -8,6 +8,10 @@
     }
 }
 
+.card {
+    min-width: 250px;
+}
+
 .jumbotron {
     background-color: $color-secondary;
     color : $color-primary-text;
