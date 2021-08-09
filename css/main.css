@@ -10746,36 +10746,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.section-break {
-  margin-top: 3rem;
-  margin-bottom: 16rem;
+.container-break {
+  margin-top: 20rem;
+}
+
+.row-content {
+  margin-top: 4rem;
 }
 
 .jumbotron {
   background-color: #202220d7;
   color: #f8f8f8;
-  padding: 6rem;
 }
 .jumbotron h2, .jumbotron .h2 {
   font-size: 1.2em;
   padding: 2rem;
 }
-
-.jumbo-title {
-  background-color: #1a9e1aaf;
+.jumbotron-title {
   margin-bottom: 3rem;
+  padding: 6rem;
+  background-color: #1a9e1aaf;
+  text-align: center;
 }
-
-.jumbo-content {
+.jumbotron-content {
   padding: 4rem;
   padding-bottom: 3rem;
-}
-
-.card {
-  min-width: 220px;
-}
-.card .card-footer {
-  font-style: italic;
 }
 
 a:link {
@@ -10788,15 +10783,17 @@ a:active {
   text-decoration: none;
 }
 
+header {
+  margin-bottom: 4rem;
+}
 header .row {
   background-color: #1a9e1aaf;
-  margin-bottom: 0rem;
 }
 header .row a {
   color: #f8f8f8;
 }
 header .row a:hover {
-  font-size: 150%;
+  font-size: 133%;
 }
 header .row nav img {
   margin-right: 1.5rem;
@@ -10808,35 +10805,24 @@ header .row #navbarContent {
   height: 297px;
 }
 
-#section-intro {
-  margin-top: 4rem;
-  margin-bottom: 0px;
-}
-#section-intro .row {
-  margin-top: 0rem;
-}
-#section-intro .row #cardID {
-  margin-left: 3rem;
+#intro .row #cardID {
+  margin-left: 6rem;
 }
 
-#section-formations {
-  margin-bottom: 5rem;
-}
-#section-formations .row {
+#ancres {
   margin-top: 4rem;
 }
-
-.cardType1 {
+#ancres .card {
   background-color: #f8f8f8;
 }
-.cardType1 a:hover {
+#ancres .card a:hover {
   border-color: #1a9e1aaf;
   border-width: 3px;
 }
-.cardType1 .card-title {
+#ancres .card .card-title {
   color: #1a9e1aaf;
 }
-.cardType1 .card-text {
+#ancres .card .card-text {
   color: #9e9a9a;
 }
 

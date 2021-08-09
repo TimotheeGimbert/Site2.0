@@ -3,7 +3,6 @@
  @import "./utils/functions";
  @import "./utils/mixins";
 
-
 a {
     &:link {text-decoration: none;}
     &:visited {text-decoration: none;}
@@ -11,59 +10,57 @@ a {
 }
 
 header {
+    margin-bottom: $margin-top;
     .row {
         background-color: $color-primary;
-        margin-bottom: 0rem;
         a {
             color: $color-primary-text;
-        }
-        a:hover {
-            font-size: 150%;
+            &:hover {font-size: 133%;}
         }
         nav {
-            img {
-                margin-right: 1.5rem;
+            img {margin-right: 1.5rem;}
+        }
+        .dot {color: $color-primary-text;}
+        #navbarContent {height: 297px;}
+    }
+}
+
+#intro {
+    .row {
+        #cardID {
+            margin-left: 6rem;
+        }
+    }
+}
+
+#ancres {
+    margin-top: $margin-top;
+    .card {
+        background-color: $color-primary-text;
+        a {
+            &:hover {
+                border-color: $color-primary;
+                border-width: 3px;
             }
         }
-        .dot {
-            color: $color-primary-text;
-        }
-        #navbarContent {
-            height: 297px;
-        }
-    }
-}
-
-#section-intro {
-    margin-top: $margin-section-top;
-    margin-bottom: 0px;
-    .row {
-        margin-top: 0rem;
-        #cardID {
-            margin-left: 3rem;
-        }
-    }
-}
-
-#section-formations {
-    margin-bottom: 5rem;
-    .row {
-        margin-top: $margin-section-top;
+        .card-title {color: $color-primary;}
+        .card-text {color: $color-secondary-text;}
     }
 }
 
 
-.cardType1 {
-    background-color: $color-primary-text;
-    a {
-        &:hover {
-            border-color: $color-primary;
-            border-width: 3px;
-        }
-    }
-    .card-title {color: $color-primary;}
-    .card-text {color: $color-secondary-text;}
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cardType2 {
     &:hover {
@@ -74,4 +71,3 @@ header {
     .card-title {color: $color-primary;}
     .card-text {color: $color-secondary-text;}
 }
-

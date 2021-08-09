@@ -1,33 +1,28 @@
-section {
-    //margin-top: $margin-section-Y;
+.container-break {
+    margin-top: $margin-top-break;
 }
 
-.section-break {
-    margin-top: 3rem;
-    margin-bottom: 16rem;
+.row {
+    &-content {
+        margin-top: $margin-top;
+    }
 }
 
 .jumbotron {
     background-color: $color-secondary;
     color : $color-primary-text;
-    padding: 6rem;
     h2 {
         font-size: 1.2em;
         padding: 2rem;
     }
-}
-.jumbo-title {
-    background-color: $color-primary;
-    margin-bottom: 3rem;
-}
-.jumbo-content {
-    padding: 4rem;
-    padding-bottom: 3rem;
-}
-
-.card {   
-    min-width: 220px;
-    .card-footer {
-        font-style: italic;
-    }    
+    &-title {
+        margin-bottom: 3rem;
+        padding: 6rem;
+        background-color: $color-primary;
+        text-align: center;
+    }
+    &-content {
+        padding: 4rem;
+        padding-bottom: 3rem;
+    }
 }
