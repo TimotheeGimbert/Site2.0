@@ -10755,7 +10755,7 @@ textarea.form-control-lg {
 }
 
 .jumbotron {
-  background-color: #202220d7;
+  background-color: #7b9e1a2c;
   color: #f8f8f8;
 }
 .jumbotron h1, .jumbotron .h1 {
@@ -10778,6 +10778,7 @@ textarea.form-control-lg {
 .jumbotron-content {
   padding: 4rem;
   padding-bottom: 3rem;
+  color: #4d4a4a;
 }
 
 a:link {
@@ -10830,21 +10831,21 @@ header .row #navbarContent {
   color: #1a9e1aaf;
 }
 #ancres .card .card-text {
-  color: #9e9a9a;
+  color: #4d4a4a;
 }
 
 .cardType2 {
   text-align: center;
 }
 .cardType2:hover {
-  border-color: #9e9a9a;
+  border-color: #4d4a4a;
   border-width: 2px;
 }
 .cardType2 .card-title {
   color: #1a9e1aaf;
 }
 .cardType2 .card-text {
-  color: #9e9a9a;
+  color: #4d4a4a;
 }
 
 /*# sourceMappingURL=main.css.map */
